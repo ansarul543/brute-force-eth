@@ -61,7 +61,7 @@ if __name__ == '__main__':
     
     processes = []
     # ৪টি কোর ব্যবহার
-    for _ in range(4):
+    for _ in range(3):
         p = multiprocessing.Process(target=find_match, args=(TARGET_ADDRESSES, shared_counter))
         p.start()
         processes.append(p)
