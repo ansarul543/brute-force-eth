@@ -41,7 +41,8 @@ def find_match(target_set, counter):
                 # ম্যাচ পেলে ফাইলে সেভ হবে
                 with open("found_keys.txt", "a") as f:
                     f.write(f"Address: 0x{address} | Key: {priv_key_bytes.hex()}\n")
-                os._exit(0)
+                sys.exit()
+				
     except KeyboardInterrupt:
         sys.exit()
 
@@ -61,7 +62,7 @@ if __name__ == '__main__':
     
     processes = []
     # ৪টি কোর ব্যবহার
-    for _ in range(3):
+    for _ in range(2):
         p = multiprocessing.Process(target=find_match, args=(TARGET_ADDRESSES, shared_counter))
         p.start()
         processes.append(p)

@@ -1,0 +1,22 @@
+//New Server Details
+
+ip :185.192.97.41
+password : ansarul018510198080
+
+aaPanel Internet Address: https://185.192.97.41:10774/7c337e76
+aaPanel Internal Address: https://185.192.97.41:10774/7c337e76
+username: gsnqxbjt
+password: 84f3e5a3
+
+//Server 2
+ip : 217.76.48.122
+password : ansarul018510198080
+
+aaPanel Internet Address: https://217.76.48.122:35458/1b372035
+aaPanel Internal Address: https://217.76.48.122:35458/1b372035
+username: ouejg3lz
+password: 4dd50bd1
+
+[detached from 1239258.pts-0.vmi3329909]
+
+screen -X -S 1318363 quit
